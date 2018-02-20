@@ -138,7 +138,8 @@ public class Bank {
         bank.withdrawMoney(account2, 200.0);
 
         // Transfer money from Account 2 to Account 1 and print new balances
-        bank.transferMoney(account2, account1, 350.0);
+        bank.transferMoney(account2, account1, 10050.0);
+        System.out.println(account2.getAccountBalance());
 
         // Print number of accounts
         System.out.print("Number of active accounts at " + bank.bankName + " are ");
